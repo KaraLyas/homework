@@ -1,0 +1,48 @@
+#HTML
+paragraph-1 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel"=stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Доска объявлений</title>
+</head>
+<body>
+  <h1>Заголовок уровня 1</h1>
+  
+  <p class="paragraph-1">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit.<b> Esse corrupti incidunt culpa delectus.</b> Cum natus, <i>eaque enim eum aspernatur placeat</i>, quis deserunt consequuntur aliquam itaque, <div>sapiente omnis excepturi ex atque?</div>
+    </p>
+  <ul>
+    <li> Первый пункт</li>
+  </ul>
+  
+    <ol>Первый пункт</ol>
+  </ul>
+</body>
+</html>
+#CSS
+h1{
+  background: red;
+  color: white;
+}
+.paragraph-1 {
+  background: pink;
+  font-size: 20pt;
+  color: green;
+  border: 10px solid yellow;
+  border-radius: 15px;
+  font-weight: bold:
+    font-family: Courier New;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+body {
+  background-color:
+   #34f500;
+  background-image: url('https://avatars.mds.yandex.net/i?id=19a637ba972edf3c64745a75b9097c9599ba8a08-9067102-images-thumbs&n=13');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  padding-top: 20px;
+}
