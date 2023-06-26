@@ -1,0 +1,39 @@
+#HTML
+paragraph-1 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel"=stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Доска объявлений</title>
+</head>
+<body>
+  <h1>Заголовок уровня 1</h1>
+  
+  
+  <p class="paragraph-1">
+    <center><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse corrupti incidunt culpa delectus. Cum natus, eaque enim eum aspernatur placeat, quis deserunt consequuntur aliquam itaque, sapiente omnis excepturi ex atque?</i></center>
+    </p>
+  <ul>
+    <li> Первый пункт</li>
+  </ul>
+  
+    <ol>Первый пункт</ol>
+  </ul>
+</body>
+</html>
+#CSS
+h1{
+  background: red;
+  color: white;
+}
+.paragraph-1 {
+  text-shadow: red 0 -2px;
+  
+  font-size: 20pt;
+  color: red;
+  
+  font-weight: bold:
+    font-family: Courier New;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
